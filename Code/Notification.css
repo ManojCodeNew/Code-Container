@@ -1,0 +1,27 @@
+.notification-container{
+width: 30%;
+height: 100px;
+background: rgb(255, 255, 255);
+position: relative;
+z-index: 1;
+top: 10px;
+left: 40%;
+
+border-radius: 25px;
+border: 6px solid rgb(10, 246, 30);
+}
+.notification-close{
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: black;
+}
+.notification-msg{
+    color: black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 10px;
+}

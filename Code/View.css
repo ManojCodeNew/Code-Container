@@ -1,0 +1,31 @@
+.codeFolder-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.folder{
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    border: 2px solid white;
+
+}
+.codeFolder-box{
+    /* margin-top: 10%; */
+    background: #111010;
+    padding: 10px;
+    border: 2px solid white;
+
+
+}
+.codeFolder-name{
+    margin-top: 8px;
+    text-align: center;
+}
+svg{
+    margin-left: 40%;
+}
+.modification-btn{
+    height: 10%;
+    padding: 10%;
+}

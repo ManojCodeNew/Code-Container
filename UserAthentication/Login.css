@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: white;
+}
+.Login-container{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    padding: 20px;
+    background: #fff1f1;
+    color: black;
+
+}
